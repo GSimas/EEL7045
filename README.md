@@ -1,5 +1,7 @@
 # EEL7045
 
+> "Nós somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito" - **Aristóteles**
+
 ## Descrição:
 
 Repositório da Disciplina EEL7045 - Circuitos Elétricos A, do Curso de Graduação em [Engenharia Eletrônica](http://geltro.ufsc.br/), da Universidade Federal de Santa Catarina ([UFSC](ufsc.br))
