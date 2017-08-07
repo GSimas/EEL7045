@@ -4,7 +4,27 @@
 
 ## Descrição:
 
-Repositório da Disciplina EEL7045 - Circuitos Elétricos A, do Curso de Graduação em [Engenharia Eletrônica](http://geltro.ufsc.br/), da Universidade Federal de Santa Catarina ([UFSC](ufsc.br))
+Repositório da Disciplina EEL7045 - Circuitos Elétricos A, do Curso de Graduação em [Engenharia Eletrônica](http://geltro.ufsc.br/) e [Engenharia Elétrica](http://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=202), da Universidade Federal de Santa Catarina ([UFSC](ufsc.br))
+
+## Dependências:
+
+Para acessar os arquivos Jupyter Notebook (extensão .ipynb) não é necessário ter dependências instaladas, é possível visualizar pelo Github. No entanto, caso deseje editar, é preciso:
+
+- [Python 3](https://www.python.org/downloads/) ou superior
+- [Jupyter Notebook](http://jupyter.org/)
+- [Numpy](http://www.numpy.org/)
+- [Matplot Lib](https://matplotlib.org/)
+- [Sympy](http://www.sympy.org/pt/index.html)
+
+## **Contribuições**
+
+Se você tem interesse de contribuir com o site faça o clone do repositório da seguinte forma:
+
+```
+$ git clone git@github.com:GSimas/EEL7045.git
+```
+Fique livre para adicionar issues, acrescentar resoluções de exercícios, desenvolvimento de projetos, aperfeiçoamento de conteúdo, entre outros materiais adicionais. Caso utilize material de terceiros, referencie da devida forma, dando os créditos para os autores.
+Leia o arquivo CONTRIBUTING.md para maiores especificações.
 
 ## Ementa:
 
@@ -20,9 +40,10 @@ Conceitos básicos: carga, corrente, tensão, potência, energia, elementos de c
 ## Referências:
 
 - [Prof. Patrick Kuo Peng](http://lattes.cnpq.br/9920822116918042)
-- [Prof. Aldroaldo Raizer](https://pt-br.facebook.com/adroaldo.raizer)
+- [Prof. Adroaldo Raizer](https://pt-br.facebook.com/adroaldo.raizer)
 - [ALEXANDER, Chales; SADIKU, Matthew. **Fundamentos de Circuitos Elétricos**](https://goo.gl/fmQET7)
-
+- [Software PSpice](http://www.pspice.com/)
+- [Software MatLAB](https://in.mathworks.com/products/matlab.html)
 
 
 ![UFSC](http://laship.ufsc.br/site/wp-content/themes/emc_completo/resource/img/filiacoes/brasao_UFSC_vertical_sigla.png) ![CTC](http://tisc.com.br/wp-content/uploads/ctcufsc.gif)
