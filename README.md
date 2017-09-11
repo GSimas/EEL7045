@@ -11,19 +11,21 @@ Repositório da Disciplina EEL7045 - Circuitos Elétricos A, do Curso de Gradua�
 Para acessar os arquivos Jupyter Notebook (extensão .ipynb) não é necessário ter dependências instaladas, é possível visualizar pelo Github. No entanto, caso deseje editar, é preciso:
 
 - [Python 3](https://www.python.org/downloads/) ou superior
-- [Jupyter Notebook](http://jupyter.org/)
+- [Jupyter/IPython Notebook](http://jupyter.org/)
 - [Numpy](http://www.numpy.org/)
 - [Matplot Lib](https://matplotlib.org/)
 - [Sympy](http://www.sympy.org/pt/index.html)
+- Built-in libraries
 
 ## **Contribuições**
 
-Se você tem interesse de contribuir com o site faça o clone do repositório da seguinte forma:
+Se você tem interesse em contribuir, faça o clone do repositório da seguinte forma:
 
 ```
 $ git clone git@github.com:GSimas/EEL7045.git
 ```
-Fique livre para adicionar issues, acrescentar resoluções de exercícios, desenvolvimento de projetos, aperfeiçoamento de conteúdo, entre outros materiais adicionais. Caso utilize material de terceiros, referencie da devida forma, dando os créditos para os autores.
+
+Fique livre para adicionar issues *relevantes*, acrescentar resoluções de exercícios, desenvolvimento de projetos, aperfeiçoamento de conteúdo, entre outros materiais adicionais. Caso utilize material de terceiros, referencie da devida forma, dando os créditos para os autores.
 Leia o arquivo CONTRIBUTING.md para maiores especificações.
 
 ## Ementa:
@@ -36,12 +38,16 @@ Conceitos básicos: carga, corrente, tensão, potência, energia, elementos de c
 
 **Aulas Semanais**: 6
 
+**Roteiros** de Laboratório disponíveis em: [Roteiros](https://github.com/GSimas/EEL7045/tree/master/Lab)
+
 
 ## Referências:
 
 - [Prof. Patrick Kuo Peng](http://lattes.cnpq.br/9920822116918042)
 - [Prof. Adroaldo Raizer](https://pt-br.facebook.com/adroaldo.raizer)
 - [ALEXANDER, Chales; SADIKU, Matthew. **Fundamentos de Circuitos Elétricos**](https://goo.gl/fmQET7)
+- [UNICAMP Departamento de Telemática](http://www.dt.fee.unicamp.br/course.html)
+- [Prof. Petry](http://www.professorpetry.com.br/Ensino/Ensino.html)
 - [Software PSpice](http://www.pspice.com/)
 - [Software MatLAB](https://in.mathworks.com/products/matlab.html)
 
