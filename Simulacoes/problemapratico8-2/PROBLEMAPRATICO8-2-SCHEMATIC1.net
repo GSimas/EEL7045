@@ -1,0 +1,6 @@
+* source PROBLEMAPRATICO8-2
+V_V1         N00011 0  
++PWL 0 0 0.001 12 2 12 2.001 0 
+R_R1         N00011 N00017  5  
+C_C1         0 N00017  1mF  
+L_L1         0 N00017  2H  

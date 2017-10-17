@@ -1,0 +1,8 @@
+* source RELATORIO8
+V_V4         N00194 0  
++SIN 0 5 1k 0 0 0
+R_R1         N00194 N00200  390  
+R_R2         N00221 0  1k  
+R_R3         0 N00200  820  
+C_C1         0 N00200  2.2uF  
+L_L1         N00200 N00221  100mH  

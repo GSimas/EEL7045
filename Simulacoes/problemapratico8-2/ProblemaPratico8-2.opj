@@ -1,0 +1,82 @@
+(ExpressProject "ProblemaPratico8-2"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\problemapratico8-2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag ".\false"))
+  (Folder "Outputs"
+    (File ".\problemapratico8-2-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\problemapratico8-2-schematic1-newsim.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\problemapratico8-2-schematic1-newsim.sim"
+        (DisplayName "SCHEMATIC1-NewSim")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\PSPICE\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\PSPICE\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\PSPICE\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\PSPICE\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\PSPICE\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\EEL7045\Simulacoes\problemapratico8-2.dsn")
+      (Path "Design Resources"
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\EEL7045\Simulacoes\problemapratico8-2.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\EEL7045\Simulacoes\problemapratico8-2.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 425"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1199 104 538")
+        (Scroll "321 194")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\EEL7045\Simulacoes\ProblemaPratico8-2.dsn")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

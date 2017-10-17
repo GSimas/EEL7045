@@ -1,0 +1,116 @@
+
+**** 10/16/17 14:43:47 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\exemplo-SCHEMATIC1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "exemplo-SCHEMATIC1-NewSim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspiceev.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 
+.PROBE 
+.INC "exemplo-SCHEMATIC1.net" 
+
+
+**** INCLUDING exemplo-SCHEMATIC1.net ****
+* source EXEMPLO
+V_V1         N00196 0 10Vdc
+C_C1         0 N00014  22uF  
+X_U1         N00014 N000231 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R5         0 N00189  1k  
+L_L1         N000231 N00189  100mH  
+R_R2         N00182 N00014  1k  
+X_U3         N00196 N00182 Sw_tOpen PARAMS: tOpen=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+
+**** RESUMING exemplo-SCHEMATIC1-NewSim.sim.cir ****
+.INC "exemplo-SCHEMATIC1.als"
+
+
+
+**** INCLUDING exemplo-SCHEMATIC1.als ****
+.ALIASES
+V_V1            V1(+=N00196 -=0 )
+C_C1            C1(1=0 2=N00014 )
+X_U1            U1(1=N00014 2=N000231 )
+R_R5            R5(1=0 2=N00189 )
+L_L1            L1(1=N000231 2=N00189 )
+R_R2            R2(1=N00182 2=N00014 )
+X_U3            U3(1=N00196 2=N00182 )
+.ENDALIASES
+
+**** RESUMING exemplo-SCHEMATIC1-NewSim.sim.cir ****
+.END
+
+**** 10/16/17 14:43:47 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\exemplo-SCHEMATIC1
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.Smod       X_U3.Smod       
+         RON     .01             .01         
+        ROFF    1.000000E+06    1.000000E+06 
+         VON    1               1            
+        VOFF    0               0            
+
+
+**** 10/16/17 14:43:47 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\exemplo-SCHEMATIC1
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00014)    9.9900 (N00182)   10.0000 (N00189)     .0100 (N00196)   10.0000     
+
+(X_U1.3)    0.0000 (X_U3.3)    1.0000 (N000231)     .0100                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -9.980E-06
+    X_U1.V1      0.000E+00
+    X_U3.V1     -1.000E-12
+
+    TOTAL POWER DISSIPATION   9.98E-05  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .08
+

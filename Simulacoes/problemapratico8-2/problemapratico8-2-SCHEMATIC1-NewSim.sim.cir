@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\EEL7045\Simulacoes\problemapratico8-2-SCHEMATIC1-NewSim.sim ] 
+
+** Creating circuit file "problemapratico8-2-SCHEMATIC1-NewSim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspiceev.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4s 0 
+.PROBE 
+.INC "problemapratico8-2-SCHEMATIC1.net" 
+
+.INC "problemapratico8-2-SCHEMATIC1.als"
+
+
+.END

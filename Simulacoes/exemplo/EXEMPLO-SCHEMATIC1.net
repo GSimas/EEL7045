@@ -1,0 +1,10 @@
+* source EXEMPLO
+V_V1         N00196 0 10Vdc
+C_C1         0 N00014  22uF  
+X_U1         N00014 N000231 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R5         0 N00189  1k  
+L_L1         N000231 N00189  100mH  
+R_R2         N00182 N00014  1k  
+X_U3         N00196 N00182 Sw_tOpen PARAMS: tOpen=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg

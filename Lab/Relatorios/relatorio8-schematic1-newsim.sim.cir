@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4ª FASE\CIRCUITOS ELÉTRICOS A\EEL7045\Lab\Relatorios\relatorio8-schematic1-newsim.sim ] 
+
+** Creating circuit file "relatorio8-schematic1-newsim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspiceev.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4s 0 
+.PROBE 
+.INC "Relatorio8-SCHEMATIC1.net" 
+
+.INC "Relatorio8-SCHEMATIC1.als"
+
+
+.END

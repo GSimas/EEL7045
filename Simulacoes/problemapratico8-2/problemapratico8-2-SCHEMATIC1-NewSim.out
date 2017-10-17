@@ -1,0 +1,85 @@
+
+**** 10/16/17 14:55:59 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\problemapratico8-2
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "problemapratico8-2-SCHEMATIC1-NewSim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspiceev.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4s 0 
+.PROBE 
+.INC "problemapratico8-2-SCHEMATIC1.net" 
+
+
+**** INCLUDING problemapratico8-2-SCHEMATIC1.net ****
+* source PROBLEMAPRATICO8-2
+V_V1         N00011 0  
++PWL 0 0 0.001 12 2 12 2.001 0 
+R_R1         N00011 N00017  5  
+C_C1         0 N00017  1mF  
+L_L1         0 N00017  2H  
+
+**** RESUMING problemapratico8-2-SCHEMATIC1-NewSim.sim.cir ****
+.INC "problemapratico8-2-SCHEMATIC1.als"
+
+
+
+**** INCLUDING problemapratico8-2-SCHEMATIC1.als ****
+.ALIASES
+V_V1            V1(+=N00011 -=0 )
+R_R1            R1(1=N00011 2=N00017 )
+C_C1            C1(1=0 2=N00017 )
+L_L1            L1(1=0 2=N00017 )
+.ENDALIASES
+
+**** RESUMING problemapratico8-2-SCHEMATIC1-NewSim.sim.cir ****
+.END
+
+**** 10/16/17 14:55:59 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\problemapratico8-2
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00011)    0.0000 (N00017)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .06
+

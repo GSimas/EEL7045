@@ -1,0 +1,89 @@
+
+**** 10/16/17 15:06:31 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Lab\Relatorios\relatorio8-sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "relatorio8-schematic1-newsim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspiceev.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4s 0 
+.PROBE 
+.INC "Relatorio8-SCHEMATIC1.net" 
+
+
+**** INCLUDING Relatorio8-SCHEMATIC1.net ****
+* source RELATORIO8
+V_V4         N00194 0  
++SIN 0 5 1k 0 0 0
+R_R1         N00194 N00200  390  
+R_R2         N00221 0  1k  
+R_R3         0 N00200  820  
+C_C1         0 N00200  2.2uF  
+L_L1         N00200 N00221  100mH  
+
+**** RESUMING relatorio8-schematic1-newsim.sim.cir ****
+.INC "Relatorio8-SCHEMATIC1.als"
+
+
+
+**** INCLUDING Relatorio8-SCHEMATIC1.als ****
+.ALIASES
+V_V4            V4(+=N00194 -=0 )
+R_R1            R1(1=N00194 2=N00200 )
+R_R2            R2(1=N00221 2=0 )
+R_R3            R3(1=0 2=N00200 )
+C_C1            C1(1=0 2=N00200 )
+L_L1            L1(1=N00200 2=N00221 )
+.ENDALIASES
+
+**** RESUMING relatorio8-schematic1-newsim.sim.cir ****
+.END
+
+**** 10/16/17 15:06:31 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Lab\Relatorios\relatorio8-sch
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00194)    0.0000 (N00200)    0.0000 (N00221)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            6.83
+

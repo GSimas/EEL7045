@@ -1,0 +1,87 @@
+
+**** 10/16/17 14:49:45 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\rlc_serie-SCHEMATI
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "rlc_serie-SCHEMATIC1-NewSim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of pspiceev.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 4s 0 
+.PROBE 
+.INC "rlc_serie-SCHEMATIC1.net" 
+
+
+**** INCLUDING rlc_serie-SCHEMATIC1.net ****
+* source RLC_SERIE
+V_V1         N00013 0  
++PWL 0 0 0.001 12 2 12 2.001 0 
+C_C1         0 N00029  0.03703  
+R_R1         N00013 N00019  60  
+R_R2         0 N00019  60  
+L_L1         N00019 N00029  3H  
+
+**** RESUMING rlc_serie-SCHEMATIC1-NewSim.sim.cir ****
+.INC "rlc_serie-SCHEMATIC1.als"
+
+
+
+**** INCLUDING rlc_serie-SCHEMATIC1.als ****
+.ALIASES
+V_V1            V1(+=N00013 -=0 )
+C_C1            C1(1=0 2=N00029 )
+R_R1            R1(1=N00013 2=N00019 )
+R_R2            R2(1=0 2=N00019 )
+L_L1            L1(1=N00019 2=N00029 )
+.ENDALIASES
+
+**** RESUMING rlc_serie-SCHEMATIC1-NewSim.sim.cir ****
+.END
+
+**** 10/16/17 14:49:45 *********** Evaluation PSpice (Nov 1999) **************
+
+ ** Profile: "SCHEMATIC1-NewSim"  [ C:\USERS\GUSTAVO\DOCUMENTS\UFSC\4 FASE\CIRCUITOS ELTRICOS A\EEL7045\Simulacoes\rlc_serie-SCHEMATI
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00013)    0.0000 (N00019)    0.0000 (N00029)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .03
+
