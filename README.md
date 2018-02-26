@@ -1,4 +1,4 @@
-# EEL7045
+# EEL7045 - Circuitos Elétricos A
 
 > "Nós somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito" - **Aristóteles**
 
